@@ -1,0 +1,172 @@
+/*
+Emily Campa; Student ID #0463272
+    ITSE-2302-NT1-21/SP; L. Vandever
+	Project HTML: Final
+	Submitted: 5/5/2021
+*/
+body {
+  font-family: Arial;
+  margin: 0;
+  color:#FBE790;
+  background-color:#BE93D4;
+}
+
+.header {
+  padding: 20px;
+  text-align: right;
+  background: #52b2bf;
+  color: #FBE790;
+  font-size: 30px;
+}
+
+footer {
+  padding: 30px;
+  text-align: center;
+  font-size: 10px;
+}
+
+/*BLOG PAGE*/
+.sayso{
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	color: black;
+}
+.sayso td{
+	padding: 20px;
+}
+
+#blog{
+	padding: 20px;
+	border: thick solid #FBE790;
+	text-align: left;
+	background-color: #52b2bf; 
+	color: #FBE790;
+}
+#blog p{
+	font-size: 24px;
+	padding: 40px;
+}
+
+/*Contact Us Page*/
+.center{
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 40%;
+}
+ul{
+  position: sticky;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FBE790;
+  text-align: center;
+  font-weight: bold;
+}
+
+li{
+  display: inline;
+}
+
+li a{
+  display: inline-block;
+  text-align: center;
+  padding: 8px 25px;
+  background-color: #FBE790;
+  color: #52b2bf;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: pink;
+}
+
+/* COLUMNS */
+.content {
+	padding:20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 40px;
+  height: 375px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* DOTTED BORDER */
+hr.dotted{
+	border-top: 5px dotted white;
+}
+
+/*vertical line*/
+.vl {
+  border-left: 5px dotted white;
+  height: 100%;
+}
+
+/*order input*/
+input[type=text] {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+div#columnHome{
+	 background-color:#BE93D4; 
+	 color:white;
+}
+
+#best{
+	color: white;
+}
+#cupcake{
+	background-color:#BE93D4;
+}
+
+#testimony{
+	color: #52b2bf;
+}
+
+p#questions{
+	padding: 20px;
+}
+
+#lower{
+	text-align:center; 
+	color: #FBE790;
+}
+
+table#orderinfo{
+	background-color:#BE93D4; 
+	color:white; 
+	height:100%;
+}
+
+td#servicetable{
+	width:50%; 
+	padding-left: 20px;
+}
+
+div#menuselect{
+	 float: left;
+	 padding-right:10px;
+}
+
+input#submitstyle{
+	float: left;
+}
